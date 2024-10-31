@@ -26,6 +26,7 @@ TEST_F(TestAdd, AddTest)
 TEST_F(TestAdd, AddTest2)
 {
     // Create a test case here. Maybe fail this to see what happens?
+    EXPECT_EQ(add(2, 4), 5);
 }
 
 int main(int argc, char **argv)
